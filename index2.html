@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="resume">Resume Builder</div>
+        <form action="#">
+            <div class="user-detail">
+                <!-- 1 -->
+                <div class="input-box">
+                    <span class="details">Name</span>
+                    <input class="name" type="text" placeholder="Enter your name" >
+                </div>
+                <!-- 3 -->
+                <div class="input-box">
+                    <span class="details">Designation</span>
+                    <input class="designation" type="text" placeholder="forntend, backend or fullstack developer" >
+                </div>
+                <!-- 2 -->
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input class="email" type="email" placeholder="Enter your Email Address" >
+                </div>
+                <!-- 3 -->
+                <div class="input-box">
+                    <span class="details"> Account Link</span>
+                    <input class="Linkedin" type="url" placeholder="Enter your Linkedin Account Link" >
+                </div>
+                <!-- 4 -->
+                <div class="input-box">
+                    <span class="details"> Account Link</span>
+                    <input class="github" type="url" placeholder="Enter your  GitHub Account Link" >
+                </div>
+                <!-- 5 -->
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <input class="location" type="text" placeholder="Enter your Location i.e Karachi, Pakistan" ></input>
+                </div>
+                <!-- 6 -->
+                <div class="input-box">
+                    <span class="details">last school</span>
+                    <input class="school" type="text" placeholder="Enter the school from where you did Matriculation"
+                        ></input>
+                </div>
+                <!-- school year -->
+                <div class="image-box">
+                    <span class="details">Year of School</span>
+                    <input class="yearOfSchool" type="number" placeholder="Enter the Year in which you cleared your Matriculation"></input>
+                </div>
+
+                <!---7-->
+                <div class="input-box">
+                    <span class="details about">About you</span>
+                    <textarea class="aboutMe" cols="6" rows="10" placeholder="Tell us About your self"></textarea>
+                </div>
+
+                <!-- experience -->
+                <div class="input-box">
+                    <span class="details about">Your Experience</span>
+                    <textarea class="experience" cols="6" rows="10" placeholder="Tell us About your Experience"></textarea>
+                </div>
+
+                <!-- 8 -->
+                <div class="input-box">
+                    <span class="details">last College</span>
+                    <input class="College" type="text" placeholder="Enter the College from where you did Intermediate"
+                        ></input>
+                </div>
+                <!-- Phone number -->
+                <div class="input-box">
+                    <span class="details">Phone</span>
+                    <input class="ph" type="number" placeholder="Enter your Phone Number"
+                        ></input>
+                </div>
+                <!-- college -->
+                <div class="image-box">
+                    <span class="details">Year of College</span>
+                    <input class="yearOfCollege" type="number" placeholder="Enter the Year in which you cleared your college"></input>
+                </div>
+                <!-- 10 -->
+                <div class="input-box">
+                    <span class="details">Current Degree</span>
+                    <input class="Degree" type="text" placeholder="Enter the degree your persuing currently"
+                        ></input>
+                </div>
+                <!-- insitution name -->
+                <div class="input-box">
+                    <span class="details">Institution</span>
+                    <input class="insitution" type="text" placeholder="Enter yout Instituion Name"
+                        ></input>
+                </div>
+                <!-- 11 -->
+                <div class="input-box">
+                    <span class="details">HTML</span>
+                    <input class="html" type="text" placeholder="How much percent do you no HTML i.e 25%" ></input>
+                </div>
+                <!-- 12 -->
+                <div class="input-box">
+                    <span class="details">CSS</span>
+                    <input class="css" type="text" placeholder="How much percent do you no Css" ></input>
+                </div>
+                <!-- 13 -->
+                <div class="input-box">
+                    <span class="details">Typescript</span>
+                    <input class="ty" type="text" placeholder="How much percent do you no Typescript" ></input>
+                </div>
+                <!-- 14 -->
+                <div class="input-box">
+                    <span class="details">React</span>
+                    <input class="rjs" type="text" placeholder="How much percent do you no React" ></input>
+                </div>
+                <!-- 15-->
+                <div class="image-box">
+                    <span class="details">Upload Image</span>
+                    <input class="image-upload" type="file" accept="image/*" ></input>
+                </div>
+                <!-- 16-->
+                <div class="input-box">
+                    <input type="submit" id="subt" value="Generate" class="resumeGeneratbtn"></input>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <!-- !THIS IS DIV WILL BE INITALLY hidden -->
+
+    <div class="container1 hidden">
+        <div class="left-side">
+            <div class="profiletext">
+                <div class="img-box">
+                    <img src="4843806.jpg" alt="Profile Picture">
+                </div>
+                <h2>Muhammad Azan<br><span>Web Developer</span></h2>
+            </div>
+            <div class="contact">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+92 310-128523-9</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span class="text">azan96593@gmail.com</span>
+                        <br>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <span class="text"><a href="https://www.linkedin.com/in/muhammad-azan-/">Linkedin</a></span>
+                        <br>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github-square" aria-hidden="true"></i></span>
+                        <span class="text"><a
+                                href="https://github.com/Muhammad-Azan-1?tab=repositories">GitHub</a></span>
+                        <br>
+                    </li>
+                    <li>
+                        <span class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text"> Karachi, Pakistan</span>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Education -->
+
+            <div class="contact Education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2019 - 2020</h5>
+                        <h4>Matriculation</h4>
+                        <h4>School Name : The Educator's</h4>
+                    </li>
+                    <li>
+                        <h5>2020 - 2022</h5>
+                        <h4>Intermediate</h4>
+                        <h4>College Name : Pak Fazia</h4>
+                    </li>
+                    <li>
+                        <h5>2022 - 2023</h5>
+                        <h4>Gen AI, Web3.0, Metaverse </h4>
+                        <h4>Instituion name : Governer House</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="right-side">
+
+            <div class="aboutme">
+                <h2 class="title2">About <span class="me">Me</span></h2>
+                <p>👋 Hello! I'm [Muhammad Azan], a passionate student currently pursuing studies in FSC
+                    Pre-Engineering. With a keen interest in cutting-edge technologies, I'm actively engaged in learning
+                    courses related to AI, the metaverse, and web3.0.
+
+                    🎓 In my academic journey, I'm dedicated to exploring the intersection of technology and innovation.
+                    Through my coursework, I'm gaining a strong foundation in engineering principles while also delving
+                    into the dynamic realms of artificial intelligence, virtual environments, and decentralized web
+                    technologies.
+
+                    💡 As I immerse myself in courses focused on AI, the metaverse, and web3.0, I'm excited about the
+                    transformative potential these fields hold. I'm driven by a curiosity to understand how emerging
+                    technologies can revolutionize industries, reshape human interactions, and pave the way for a more
+                    connected and inclusive future.
+
+                    🌱 Beyond the classroom, I'm committed to continuous learning and growth. I actively seek out
+                    opportunities to expand my skill set, collaborate with like-minded individuals, and contribute to
+                    projects that push the boundaries of innovation.
+
+                    🚀 Looking ahead, I'm eager to apply my knowledge and skills to real-world challenges, contribute to
+                    meaningful projects, and be part of a dynamic community driving positive change through technology.
+
+                    Let's connect and explore the exciting possibilities at the intersection of technology and
+                    creativity!</p>
+            </div>
+
+            <!-- experience -->
+
+            <div class="experience">
+                <h2 class="title2">My <span class="me"> Experience</span></h2>
+                <p>👋 Hello! I'm [Muhammad Azan], a passionate student currently pursuing studies in FSC
+                    Pre-Engineering. With a keen interest in cutting-edge technologies, I'm actively engaged in learning
+                    courses related to AI, the metaverse, and web3.0.
+
+                    🎓 In my academic journey, I'm dedicated to exploring the intersection of technology and innovation.
+                    Through my coursework, I'm gaining a strong foundation in engineering principles while also delving
+                    into the dynamic realms of artificial intelligence, virtual environments, and decentralized web
+                    technologies.
+
+                    💡 As I immerse myself in courses focused on AI, the metaverse, and web3.0, I'm excited about the
+                    transformative potential these fields hold. I'm driven by a curiosity to understand how emerging
+                    technologies can revolutionize industries, reshape human interactions, and pave the way for a more
+                    connected and inclusive future.
+
+                    🌱 Beyond the classroom, I'm committed to continuous learning and growth. I actively seek out
+                    opportunities to expand my skill set, collaborate with like-minded individuals, and contribute to
+                    projects that push the boundaries of innovation.
+
+                    🚀 Looking ahead, I'm eager to apply my knowledge and skills to real-world challenges, contribute to
+                    meaningful projects, and be part of a dynamic community driving positive change through technology.
+
+                    Let's connect and explore the exciting possibilities at the intersection of technology and
+                    creativity!</p>
+            </div>
+
+
+            <!-- skills -->
+
+            <div class="skills">
+                <h2 class="title2">Professional <span class="me">Skills</span></h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percentage">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percentage">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>Typescript</h4>
+                <div class="percentage">
+                    <div style="width: 95%;"></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h4>React.js</h4>
+                <div class="percentage">
+                    <div style="width: 85%;"></div>
+                </div>
+            </div>
+
+            
+            <h3 class="water-mark">Resume builder by <span class="title">  Muhammad Azan</span></h3> 
+         
+
+        </div>
+    </div>
+   
+    
+    <div class="button hidden2">
+        <button id="go-back" class="edit ">Edit</button>
+        <button id="Download" class="edit ">Download</button>
+        <button id="Linkbtn" class="edit ">Generate Link</button>
+    </div>
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="main.js"></script>
+   
+
+
+</body>
+</html>
+
+
